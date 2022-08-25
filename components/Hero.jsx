@@ -19,7 +19,7 @@ export default function Hero({ buscar }) {
 
                     <div className="hero-resumen-grid">
                         <div className="hero-resumen-titulo">
-                            <h2>What does <span className="resalt-mor">IdiomAry.com</span> offer?</h2>
+                            <h2>What does <span className="resalt-mor">idiomary.com</span> offer?</h2>
                         </div>
                         <div className="hero-resumen-item">
                         <Link href="/#lessons">
