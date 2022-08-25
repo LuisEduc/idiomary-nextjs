@@ -22,20 +22,18 @@ export default function Hero({ buscar }) {
                             <h2>What does <span className="resalt-mor">idiomary.com</span> offer?</h2>
                         </div>
                         <div className="hero-resumen-item">
-                            <Link href="/vocabulario">
-                                <a>
+                        <Link href="/#lessons">
+                                <a href="/#lessons">
                                     <div className="item-hero-number">
                                         <span>1</span>
                                     </div>
                                 </a>
                             </Link>
                             <div className="item-hero-text">
-                                <Link href="/vocabulario">
-                                    <a>
-                                        <h3>
-                                            Basic readings in Spanish.
-                                        </h3>
-                                    </a>
+                                <Link href="/#lessons">
+                                    <h3>
+                                        <a href="/#lessons">Basic readings in Spanish.</a>
+                                    </h3>
                                 </Link>
                                 <p>Basic and short readings in Spanish to improve your language skills and learn new vocabulary.</p>
                             </div>
