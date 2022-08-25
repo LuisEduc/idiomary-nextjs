@@ -7,7 +7,7 @@ export default function BloqueInicio({ children, titulo, imagen, slug_cat, slug 
             <div className="bloque-inicio">
                 <div className="mx-auto">
                     {children}
-                    <Link href={`/${slug_cat}/${slug}`}>
+                    <Link href={`/en/${slug_cat}/${slug}`}>
                         <a>
                             <div className="img-bloque-inicio">
                                 <Image
@@ -23,7 +23,7 @@ export default function BloqueInicio({ children, titulo, imagen, slug_cat, slug 
                         </a>
                     </Link>
                 </div>
-                <Link href={`/${slug_cat}/${slug}`}>
+                <Link href={`/en/${slug_cat}/${slug}`}>
                     <a className="mx-auto">
                         <div className="text-bloque-inicio">
                             <p>

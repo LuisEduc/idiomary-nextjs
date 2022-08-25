@@ -1,10 +1,10 @@
 
-import Layout from "../../../components/Layout"
-import BotonMain from "../../../components/BotonMain"
-import AudioContainer from "../../../components/AudioContainer"
-import BloqueInicio from "../../../components/BloqueInicio"
+import Layout from "../../../../components/Layout"
+import BotonMain from "../../../../components/BotonMain"
+import AudioContainer from "../../../../components/AudioContainer"
+import BloqueInicio from "../../../../components/BloqueInicio"
 import Head from "next/head"
-import Cuestionario from "../../../components/Cuestionario"
+import Cuestionario from "../../../../components/Cuestionario"
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from "react-responsive-carousel";
 import "react-h5-audio-player/lib/styles.css";
@@ -13,7 +13,7 @@ import { useRouter } from 'next/router'
 import { useState, useEffect } from 'react'
 import Link from "next/link"
 import JsxParser from 'react-jsx-parser'
-import ListaLinks from "../../../components/ListaLinks"
+import ListaLinks from "../../../../components/ListaLinks"
 import AdSense from 'react-adsense'
 
 const settings = {
@@ -126,7 +126,7 @@ export default function Individual({ dataLec, dataCat, cats, contLec }) {
                 <BotonMain
                     titulo='Similar classes'
                     icono='fa-chevron-circle-left'
-                    dir={`/${dataCat.categoria[0].slug}`}
+                    dir={`/en/${dataCat.categoria[0].slug}`}
                     bg='bg-secundario'
                 />
 
@@ -154,7 +154,7 @@ export default function Individual({ dataLec, dataCat, cats, contLec }) {
 
                 {
                     lecturas ?
-                        <Link href={`/${dataCat.categoria[0].slug}/${leccion[0].slug}/translation`}>
+                        <Link href={`/en/${dataCat.categoria[0].slug}/${leccion[0].slug}/translation`}>
                             <a>
                                 <div className={`btn btn-cuestionario bg-primario`}>
                                     <i className={`fas fa-edit`}></i>
@@ -193,7 +193,7 @@ export default function Individual({ dataLec, dataCat, cats, contLec }) {
                 <BotonMain
                     titulo='Related classes'
                     icono='fa-grip-horizontal'
-                    dir={`/${dataCat.categoria[0].slug}`}
+                    dir={`/en/${dataCat.categoria[0].slug}`}
                     bg='bg-secundario'
                 />
 

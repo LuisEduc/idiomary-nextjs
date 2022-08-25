@@ -1,8 +1,8 @@
 
-import Layout from "../../components/Layout"
-import BotonMain from "../../components/BotonMain"
-import InfoCat from "../../components/InfoCat"
-import OnePostCat from "../../components/OnePostCat"
+import Layout from "../../../components/Layout"
+import BotonMain from "../../../components/BotonMain"
+import InfoCat from "../../../components/InfoCat"
+import OnePostCat from "../../../components/OnePostCat"
 import Head from "next/head"
 import AdSense from 'react-adsense'
 import JsxParser from 'react-jsx-parser'

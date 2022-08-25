@@ -1,8 +1,8 @@
 
 import ReactDiffViewer, { DiffMethod } from 'react-diff-viewer';
 import { useState, useEffect, useRef } from 'react'
-import Layout from '../../../components/Layout';
-import BotonMain from '../../../components/BotonMain';
+import Layout from '../../../../components/Layout';
+import BotonMain from '../../../../components/BotonMain';
 import Link from 'next/link';
 import Head from 'next/head';
 

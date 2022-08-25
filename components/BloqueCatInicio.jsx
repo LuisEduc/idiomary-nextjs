@@ -4,7 +4,7 @@ export default function BloqueCatInicio({ nivel, icono, slug, titulo, descripcio
     return (
         <>
             <div className="grid-cat-inicio">
-                <Link href={`/${slug}`}>
+                <Link href={`/en/${slug}`}>
                     <a>
                         <div className="titulo-cat-inicio">
                             <div>
@@ -23,7 +23,7 @@ export default function BloqueCatInicio({ nivel, icono, slug, titulo, descripcio
                 <div className="detalles-cat-inicio">
                     <p>{descripcion}</p>
                     <div className="flex-center">
-                        <Link href={`/${slug}`}>
+                        <Link href={`/en/${slug}`}>
                             <a type="button" className="btn btn-in-cat">I want to learn<i className="fas fa-headphones-alt ms-2"></i></a>
                         </Link>
                     </div>

@@ -876,11 +876,11 @@ a {
 }
 
 .carousel .control-next.control-arrow:before {
-  border-left: 12px solid #7c76b8 !important;
+  border-left: 12px solid #000000 !important;
 }
 
 .carousel .control-prev.control-arrow:before {
-  border-right: 12px solid #7c76b8 !important;
+  border-right: 12px solid #000000 !important;
 }
 
 /* ----------------------------------------------------------- */

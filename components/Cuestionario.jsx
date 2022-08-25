@@ -150,7 +150,7 @@ export default function Cuestionario({ questions, nextQ, firstQ }) {
             refQuizOver.current.classList.remove("show")
             refBtnClose.current.click()
             router.push({
-                pathname: '/lecs/[categoria]/[slug]',
+                pathname: '/en/[categoria]/[slug]',
                 query: { categoria: nextQ[0].slug_cat, slug: nextQ[0].slug },
             })
         } else if (puntaje === 1 && !nextQ[0]) {
@@ -160,7 +160,7 @@ export default function Cuestionario({ questions, nextQ, firstQ }) {
             refQuizOver.current.classList.remove("show")
             refBtnClose.current.click()
             router.push({
-                pathname: '/lecs/[categoria]/[slug]',
+                pathname: '/en/[categoria]/[slug]',
                 query: { categoria: firstQ[0].slug_cat, slug: firstQ[0].slug },
             })
         } else {

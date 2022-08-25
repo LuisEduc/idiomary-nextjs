@@ -19,7 +19,7 @@ export default function Hero({ buscar }) {
 
                     <div className="hero-resumen-grid">
                         <div className="hero-resumen-titulo">
-                            <h2>What does <span className="resalt-mor">idiomary.com</span> offer?</h2>
+                            <h2>What does <span className="resalt-mor">IdiomAry.com</span> offer?</h2>
                         </div>
                         <div className="hero-resumen-item">
                         <Link href="/#lessons">
@@ -69,7 +69,7 @@ export default function Hero({ buscar }) {
                                         <a href="/#courses">Basic vocabulary.</a>
                                     </h3>
                                 </Link>
-                                <p>Basic vocabulary in Spanish such as weather, prepositions, professions, etc. With translation, pronunciation and test.</p>
+                                <p>Basic vocabulary in Spanish such as weather, prepositions, personality, etc. With translation, pronunciation and test.</p>
                             </div>
                         </div>
                     </div>
