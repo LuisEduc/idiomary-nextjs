@@ -4,7 +4,7 @@ export default function ListaLinks({ nivel, icono, slug, titulo }) {
     return (
         <>
             <div className="grid-lista-links">
-                <Link href={`/lecs/${slug}`}>
+                <Link href={`/en/${slug}`}>
                     <a>
                         <div className="titulo-lista-links">
                             <div>

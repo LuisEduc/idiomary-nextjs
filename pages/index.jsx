@@ -75,7 +75,7 @@ export default function Index({ bloques, cats, buscar }) {
             <CookieConsent
                 location="bottom"
                 buttonText="I agree"
-                cookieName="CookieIXD"
+                cookieName="CookieIdi"
                 style={{ background: "#f6f6f6" }}
                 buttonStyle={{
                     background: "#ff7c4b",
