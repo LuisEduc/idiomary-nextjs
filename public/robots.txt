@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /privacidad/
+Disallow: /terminos/
+Disallow: /cookies/
+Allow: /
+
+Sitemap: https://idiomary.com/api/my-sitemap  
