@@ -87,7 +87,7 @@ export default function Traduccion({ contLec, slug_categoria, slug_leccion }) {
             <BotonMain
                 titulo='Back to'
                 icono='fa-chevron-circle-left'
-                dir={`/lecs/${slug_categoria}/${slug_leccion}`}
+                dir={`/en/${slug_categoria}/${slug_leccion}`}
                 bg='bg-secundario'
             />
 
