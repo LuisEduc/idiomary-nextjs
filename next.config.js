@@ -3,12 +3,7 @@ module.exports = {
   images: {
     domains: ["admin.idiomary.com"],
   },
-
-  i18n: {
-    locales: ["en"],
-    defaultLocale: "en",
-  },
-
+  
   async redirects() {
     return [
       {

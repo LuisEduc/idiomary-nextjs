@@ -30,13 +30,12 @@ export default function IndexCat({ dataCat, dataContCat }) {
 
         <Layout>
             <Head>
-                <link rel="shortcut icon" href="/favicon.png" />
+                <link rel="icon" href="/favicon.png" />
                 <title>{dataCat.categoria[0].titulo} in Spanish | Spanish Online Course</title>
                 <meta name="description" content={dataCat.categoria[0].descripcion} />
 
                 <link rel="preconnect" href="https://fonts.googleapis.com" />
                 <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
-                <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet"></link>
             </Head>
 
             <InfoCat
