@@ -30,7 +30,7 @@ export default function IndexCat({ dataCat, dataContCat }) {
 
         <Layout>
             <Head>
-                <link rel="icon" href="/favicon.png" />
+                <link rel="shortcut icon" href="/favicon.png" />
                 <title>{dataCat.categoria[0].titulo} in Spanish | Spanish Online Course</title>
                 <meta name="description" content={dataCat.categoria[0].descripcion} />
 

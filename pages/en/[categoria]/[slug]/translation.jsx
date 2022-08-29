@@ -71,7 +71,7 @@ export default function Traduccion({ contLec, slug_categoria, slug_leccion }) {
         <Layout>
 
             <Head>
-                <link rel="icon" href="/favicon.png" />
+                <link rel="shortcut icon" href="/favicon.png" />
                 <title>{miTexto[1]} · Spanish translation exercise</title>
                 <meta name="description" content={miTexto[3]} />
             </Head>

@@ -14,7 +14,7 @@ export default function Index({ bloques, cats, buscar }) {
     return (
         <Layout home buscar={buscar}>
             <Head>
-                <link rel="icon" href="/favicon.png" />
+                <link rel="shortcut icon" href="/favicon.png" />
                 <title>Spanish Online Course / idiomary</title>
                 <meta name="description" content="Basic Spanish lessons. In this online course for beginners learn to speak, read and write in Spanish for free with classes perfect for children, teens and adults." />
             </Head>

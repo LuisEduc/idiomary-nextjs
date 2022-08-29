@@ -110,7 +110,7 @@ export default function Individual({ dataLec, dataCat, cats, contLec }) {
         <>
             <Layout>
                 <Head>
-                    <link rel="icon" href="/favicon.png" />
+                    <link rel="shortcut icon" href="/favicon.png" />
                     <title>{leccion[0].titulo_seo}</title>
                     <meta name="description" content={leccion[0].descripcion} />
 
