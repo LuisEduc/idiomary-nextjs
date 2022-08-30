@@ -32,6 +32,9 @@ export default function Navbar() {
                                             <a href="/#lessons">Lessons</a>
                                         </Link>
                                     </li>
+                                    <li onClick={() => window.open("https://www.facebook.com/idiomary.edu", "_blank")}>
+                                        <a className="active fw-bold mano">Facebook</a>
+                                    </li>
                                 </ul>
                                 <a ref={refMenu} onClick={Desplegar} className='menu-trigger'>
                                     <span>Menu</span>
