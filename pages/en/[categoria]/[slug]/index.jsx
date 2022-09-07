@@ -145,6 +145,7 @@ export default function Individual({ dataLec, dataCat, cats, contLec }) {
                                         placeholder="blur"
                                         blurDataURL="/img/placeholder.webp"
                                         sizes="48vw"
+                                        priority
                                     />
                                 </div>
                             ))
