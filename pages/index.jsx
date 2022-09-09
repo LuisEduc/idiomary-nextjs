@@ -16,7 +16,7 @@ export default function Index({ bloques, cats, buscar }) {
             <Head>
                 <link rel="shortcut icon" href="/favicon.png" />
                 <title>Spanish Online Course / idiomary</title>
-                <meta name="description" content="Basic Spanish lessons. In this online course for beginners learn to speak, read and write in Spanish for free with classes perfect for children, teens and adults." />
+                <meta name="description" content="Basic Spanish lessons. In this online course for beginners, you will learn to speak, read, and write in Spanish for free with classes perfect for children, teens, and adults." />
             </Head>
 
             <div id="lessons"></div>
