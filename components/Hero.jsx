@@ -7,6 +7,23 @@ export default function Hero({ buscar }) {
     return (
         <>
             <div className="hero-bg">
+            <div style={{ height: '15px' }}></div>
+
+                <AdSense.Google
+                    // index-hero-idiom
+                    client='ca-pub-3630578707238850'
+                    slot='2375448256'
+                    style={{
+                        display: 'block',
+                        marginLeft: 'auto',
+                        marginRight: 'auto',
+                        marginTop: 15 + 'px',
+                        textAlign: 'center'
+                    }}
+                    format='auto'
+                    responsive='true'
+                />
+
                 <div className="hero">
                     <div className="hero-text">
                         <div className="hero-titulo">

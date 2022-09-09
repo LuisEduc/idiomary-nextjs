@@ -7,7 +7,7 @@ export default function Buscador({ buscar }) {
 
     const handleOnSelect = ({ slug_cat, slug }) => {
         router.push({
-            pathname: '/[categoria]/[slug]',
+            pathname: '/en/[categoria]/[slug]',
             query: { categoria: slug_cat, slug },
         })
     }

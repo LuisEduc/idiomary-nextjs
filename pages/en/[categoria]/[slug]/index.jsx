@@ -119,8 +119,42 @@ export default function Individual({ dataLec, dataCat, cats, contLec }) {
                     <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet"></link>
                 </Head>
 
+                <div className="text-center">
+                    <AdSense.Google
+                        // lec-300x50-alto-idiom
+                        client='ca-pub-3630578707238850'
+                        slot='4698359263'
+                        style={{
+                            display: 'block',
+                            height: 50 + 'px',
+                            marginLeft: 'auto',
+                            marginRight: 'auto',
+                            marginTop: 12 + 'px',
+                            textAlign: 'center'
+                        }}
+                        format=''
+                        responsive='true'
+                    />
+                </div>
+
                 <div className="lecs-titulo">
                     <h1>{leccion[0].titulo_seo}</h1>
+                </div>
+
+                <div className="text-center">
+                    <AdSense.Google
+                        // lec-full-idiom
+                        client='ca-pub-3630578707238850'
+                        slot='8138663402'
+                        style={{
+                            display: 'block',
+                            marginLeft: 'auto',
+                            marginRight: 'auto',
+                            textAlign: 'center'
+                        }}
+                        format='auto'
+                        responsive='true'
+                    />
                 </div>
 
                 <BotonMain
@@ -151,6 +185,24 @@ export default function Individual({ dataLec, dataCat, cats, contLec }) {
                             ))
                         }
                     </Carousel>
+                </div>
+
+                <div className="text-center">
+                    <AdSense.Google
+                        // lec-300x50-medio-idiom
+                        client='ca-pub-3630578707238850'
+                        slot='8779444197'
+                        style={{
+                            display: 'block',
+                            height: 50 + 'px',
+                            marginLeft: 'auto',
+                            marginRight: 'auto',
+                            marginTop: 5 + 'px',
+                            textAlign: 'center'
+                        }}
+                        format=''
+                        responsive='true'
+                    />
                 </div>
 
                 {
@@ -216,6 +268,24 @@ export default function Individual({ dataLec, dataCat, cats, contLec }) {
                         }
                     </div>
                 }
+
+                <div className="text-center">
+                    <AdSense.Google
+                        // lec-300x50-bajo-idom
+                        client='ca-pub-3630578707238850'
+                        slot='6508504072'
+                        style={{
+                            display: 'block',
+                            height: 50 + 'px',
+                            marginLeft: 'auto',
+                            marginRight: 'auto',
+                            marginTop: 5 + 'px',
+                            textAlign: 'center'
+                        }}
+                        format=''
+                        responsive='true'
+                    />
+                </div>
 
                 <BotonMain
                     titulo='More Spanish courses'
