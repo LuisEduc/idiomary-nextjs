@@ -5,6 +5,7 @@ import Layout from '../../../../components/Layout';
 import BotonMain from '../../../../components/BotonMain';
 import Link from 'next/link';
 import Head from 'next/head';
+import AdSense from 'react-adsense';
 
 export default function Traduccion({ contLec, slug_categoria, slug_leccion }) {
 
@@ -76,6 +77,24 @@ export default function Traduccion({ contLec, slug_categoria, slug_leccion }) {
                 <meta name="description" content={miTexto[3]} />
             </Head>
 
+            <div className="text-center">
+                <AdSense.Google
+                    // trad-300x50-alto-idiom
+                    client='ca-pub-3630578707238850'
+                    slot='6219324496'
+                    style={{
+                        display: 'block',
+                        height: 50 + 'px',
+                        marginLeft: 'auto',
+                        marginRight: 'auto',
+                        marginTop: 12 + 'px',
+                        textAlign: 'center'
+                    }}
+                    format=''
+                    responsive='true'
+                />
+            </div>
+
             <div className="lecs-titulo">
                 <h1>
                     TRANSLATION EXERCISE
@@ -90,6 +109,20 @@ export default function Traduccion({ contLec, slug_categoria, slug_leccion }) {
                 dir={`/en/${slug_categoria}/${slug_leccion}`}
                 bg='bg-secundario'
             />
+
+            <div className="text-center">
+                <AdSense.Google
+                    // trad-300x250-idiom
+                    client='ca-pub-3630578707238850'
+                    slot='2690895605'
+                    style={{
+                        display: 'block',
+                        height: 250 + 'px',
+                    }}
+                    format=''
+                    responsive='true'
+                />
+            </div>
 
             <div className="texto-main-traduccion">
                 <h2>{textoEsp}</h2>
@@ -107,6 +140,24 @@ export default function Traduccion({ contLec, slug_categoria, slug_leccion }) {
                     value={message}
                     placeholder='Translate the text...'
                     autoComplete="off"
+                />
+            </div>
+
+            <div className="text-center">
+                <AdSense.Google
+                    // trad-300x50-medio-idiom
+                    client='ca-pub-3630578707238850'
+                    slot='3840325742'
+                    style={{
+                        display: 'block',
+                        height: 50 + 'px',
+                        marginLeft: 'auto',
+                        marginRight: 'auto',
+                        marginTop: 15 + 'px',
+                        textAlign: 'center'
+                    }}
+                    format=''
+                    responsive='true'
                 />
             </div>
 
