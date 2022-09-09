@@ -29,6 +29,7 @@ export default function Index({ bloques, cats, buscar }) {
                     display: 'block',
                     marginLeft: 'auto',
                     marginRight: 'auto',
+                    marginTop: 15 + 'px',
                     textAlign: 'center'
                 }}
                 format='auto'

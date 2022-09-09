@@ -46,6 +46,7 @@ export default function IndexCat({ dataCat, dataContCat }) {
                     display: 'block',
                     marginLeft: 'auto',
                     marginRight: 'auto',
+                    marginTop: 15 + 'px',
                     textAlign: 'center'
                 }}
                 format='auto'
