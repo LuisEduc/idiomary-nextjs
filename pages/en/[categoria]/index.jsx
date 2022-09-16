@@ -60,25 +60,6 @@ export default function IndexCat({ dataCat, dataContCat }) {
                 descripcion={dataCat.categoria[0].descripcion}
             />
 
-            <div className="text-center">
-                <AdSense.Google
-                    // cat-300x50-idiom
-                    client='ca-pub-3630578707238850'
-                    slot='2894323003'
-                    style={{
-                        display: 'block',
-                        height: 50 + 'px',
-                        marginLeft: 'auto',
-                        marginRight: 'auto',
-                        marginTop: 12 + 'px',
-                        margitBottom: 12 + 'px',
-                        textAlign: 'center'
-                    }}
-                    format=''
-                    responsive='true'
-                />
-            </div>
-
             <div>
                 <BotonMain
                     titulo='All lessons'
@@ -87,6 +68,22 @@ export default function IndexCat({ dataCat, dataContCat }) {
                     bg='bg-primario'
                 />
             </div>
+
+            <AdSense.Google
+                // cat-full-idiom
+                client='ca-pub-3630578707238850'
+                slot='2479405946'
+                style={{
+                    display: 'block',
+                    marginLeft: 'auto',
+                    marginRight: 'auto',
+                    marginTop: '20px',
+                    marginBottom: '15px',
+                    textAlign: 'center'
+                }}
+                format='auto'
+                responsive='true'
+            />
 
             <div className="galeria-posts-cat">
                 {

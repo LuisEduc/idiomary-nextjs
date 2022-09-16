@@ -110,19 +110,21 @@ export default function Traduccion({ contLec, slug_categoria, slug_leccion }) {
                 bg='bg-secundario'
             />
 
-            <div className="text-center">
-                <AdSense.Google
-                    // trad-300x250-idiom
-                    client='ca-pub-3630578707238850'
-                    slot='2690895605'
-                    style={{
-                        display: 'block',
-                        height: 250 + 'px',
-                    }}
-                    format=''
-                    responsive='true'
-                />
-            </div>
+            <AdSense.Google
+                // trad-full-idiom
+                client='ca-pub-3630578707238850'
+                slot='6227079262'
+                style={{
+                    display: 'block',
+                    marginLeft: 'auto',
+                    marginRight: 'auto',
+                    marginTop: '20px',
+                    marginBottom: '20px',
+                    textAlign: 'center'
+                }}
+                format='auto'
+                responsive='true'
+            />
 
             <div className="texto-main-traduccion">
                 <h2>{textoEsp}</h2>
