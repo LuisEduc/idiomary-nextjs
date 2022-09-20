@@ -66,7 +66,7 @@ export default function Cuestionario({ questions, nextQ, firstQ }) {
 
     const next = () => {
         if (!refOpcion.current[0].classList.contains("disabled")) {
-            alert("Por favor, seleccione una opción")
+            alert("Please select an option")
         }
         else {
             setNumeroPregunta(numeroPregunta + 1)
