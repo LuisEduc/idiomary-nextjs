@@ -77,23 +77,20 @@ export default function Traduccion({ contLec, slug_categoria, slug_leccion }) {
                 <meta name="description" content={miTexto[3]} />
             </Head>
 
-            <div className="text-center">
-                <AdSense.Google
-                    // trad-300x50-alto-idiom
-                    client='ca-pub-3630578707238850'
-                    slot='6219324496'
-                    style={{
-                        display: 'block',
-                        height: 50 + 'px',
-                        marginLeft: 'auto',
-                        marginRight: 'auto',
-                        marginTop: 12 + 'px',
-                        textAlign: 'center'
-                    }}
-                    format=''
-                    responsive='true'
-                />
-            </div>
+            <AdSense.Google
+                // trad-full-idiom
+                client='ca-pub-3630578707238850'
+                slot='6227079262'
+                style={{
+                    display: 'block',
+                    marginLeft: 'auto',
+                    marginRight: 'auto',
+                    marginTop: 12 + 'px',
+                    textAlign: 'center'
+                }}
+                format='auto'
+                responsive='true'
+            />
 
             <div className="lecs-titulo">
                 <h1>
@@ -110,21 +107,24 @@ export default function Traduccion({ contLec, slug_categoria, slug_leccion }) {
                 bg='bg-secundario'
             />
 
-            <AdSense.Google
-                // trad-full-idiom
-                client='ca-pub-3630578707238850'
-                slot='6227079262'
-                style={{
-                    display: 'block',
-                    marginLeft: 'auto',
-                    marginRight: 'auto',
-                    marginTop: '20px',
-                    marginBottom: '20px',
-                    textAlign: 'center'
-                }}
-                format='auto'
-                responsive='true'
-            />
+            <div className="text-center">
+                <AdSense.Google
+                    // trad-300x50-alto-idiom
+                    client='ca-pub-3630578707238850'
+                    slot='6219324496'
+                    style={{
+                        display: 'block',
+                        height: 50 + 'px',
+                        marginLeft: 'auto',
+                        marginRight: 'auto',
+                        marginTop: '20px',
+                        marginBottom: '20px',
+                        textAlign: 'center'
+                    }}
+                    format=''
+                    responsive='true'
+                />
+            </div>
 
             <div className="texto-main-traduccion">
                 <h2>{textoEsp}</h2>
