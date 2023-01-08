@@ -7,7 +7,7 @@ export default function ListaLinks({ nivel, icono, slug, titulo }) {
                 <Link href={`/en/${slug}`}>
                     <a>
                         <div className="titulo-lista-links">
-                            <div>
+                            <div className='textos-lista-links'>
                                 {nivel === 'medio' ?
                                 <h2>Intermediate level course</h2>
                                 :

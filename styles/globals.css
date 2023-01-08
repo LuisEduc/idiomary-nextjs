@@ -334,15 +334,16 @@ a {
   margin-left: auto;
   margin-right: auto;
   display: grid;
-  grid-auto-rows: 3.3rem;
-  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+  grid-auto-rows: 2.7rem;
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
   row-gap: 2rem;
-  margin: 0 auto 3.5rem auto;
+  margin: 0 auto 42px auto;
 }
 
 @media (max-width: 770px) {
   .div-lista-links {
     width: 98%;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
   }
 }
 
@@ -364,11 +365,17 @@ a {
 }
 
 .titulo-lista-links {
+  margin: auto;
+  height: 60px;
   background-color: var(--color-blanco);
   padding: 2px 15px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.textos-lista-links {
+  margin: auto 0;
 }
 
 .icon-lista-links {
@@ -381,7 +388,7 @@ a {
   font-weight: 200;
   color: #212529;
   font-size: 16px;
-  margin: 4px 0;
+  margin: 2px 0;
 }
 
 .grid-lista-links h3 {

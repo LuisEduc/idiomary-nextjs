@@ -121,17 +121,18 @@ export default function Individual({ dataLec, dataCat, cats, contLec }) {
 
                 <div className="text-center">
                     <AdSense.Google
-                        // lec-full-idiom
+                        // lec-300x50-alto-idiom
                         client='ca-pub-3630578707238850'
-                        slot='8138663402'
+                        slot='4698359263'
                         style={{
                             display: 'block',
+                            height: 50 + 'px',
                             marginLeft: 'auto',
                             marginRight: 'auto',
                             marginTop: 12 + 'px',
                             textAlign: 'center'
                         }}
-                        format='auto'
+                        format=''
                         responsive='true'
                     />
                 </div>
@@ -142,18 +143,17 @@ export default function Individual({ dataLec, dataCat, cats, contLec }) {
 
                 <div className="text-center">
                     <AdSense.Google
-                        // lec-300x50-alto-idiom
+                        // lec-full-idiom
                         client='ca-pub-3630578707238850'
-                        slot='4698359263'
+                        slot='8138663402'
                         style={{
                             display: 'block',
-                            height: 50 + 'px',
                             marginLeft: 'auto',
                             marginRight: 'auto',
                             marginTop: 15 + 'px',
                             textAlign: 'center'
                         }}
-                        format=''
+                        format='auto'
                         responsive='true'
                     />
                 </div>
@@ -270,24 +270,6 @@ export default function Individual({ dataLec, dataCat, cats, contLec }) {
                     </div>
                 }
 
-                <div className="text-center">
-                    <AdSense.Google
-                        // lec-300x50-bajo-idom
-                        client='ca-pub-3630578707238850'
-                        slot='6508504072'
-                        style={{
-                            display: 'block',
-                            height: 50 + 'px',
-                            marginLeft: 'auto',
-                            marginRight: 'auto',
-                            marginTop: 5 + 'px',
-                            textAlign: 'center'
-                        }}
-                        format=''
-                        responsive='true'
-                    />
-                </div>
-
                 <BotonMain
                     titulo='More Spanish courses'
                     icono='fa-grip-horizontal'
@@ -308,6 +290,41 @@ export default function Individual({ dataLec, dataCat, cats, contLec }) {
                             </div>
                         ))
                     }
+                </div>
+
+                <div className="text-center">
+                    <AdSense.Google
+                        // 300x50-footer-idiom-1
+                        client='ca-pub-3630578707238850'
+                        slot='8283887960'
+                        style={{
+                            display: 'block',
+                            height: 50 + 'px',
+                            marginLeft: 'auto',
+                            marginRight: 'auto',
+                            marginBottom: 15 + 'px',
+                            textAlign: 'center'
+                        }}
+                        format=''
+                        responsive='true'
+                    />
+                </div>
+                <div className="text-center">
+                    <AdSense.Google
+                        // 300x50-footer-idiom-2
+                        client='ca-pub-3630578707238850'
+                        slot='5657724625'
+                        style={{
+                            display: 'block',
+                            height: 50 + 'px',
+                            marginLeft: 'auto',
+                            marginRight: 'auto',
+                            marginBottom: 15 + 'px',
+                            textAlign: 'center'
+                        }}
+                        format=''
+                        responsive='true'
+                    />
                 </div>
 
             </Layout>
